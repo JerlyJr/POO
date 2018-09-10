@@ -10,12 +10,12 @@ export class Carro{
         this.km = 0
     }
 
-    entrar() : any {
+    entrar() : void {
         if (this.pass == 2){
         console.log ("\n" + "Limite de maximo pessoas Atingido");
     }  else { this.pass += 1;
     }}
-    sair() : any {
+    sair() : void {
         if (this.pass == 0){
             console.log ("\n" +"Nao ha pessoas para retirar");
         }
